@@ -1,0 +1,25 @@
+/**
+    * Metodos HTTP:
+    * 
+    * GET: Buscar informação
+    * POST: Escrever uma informação
+    * PUT: Alterar uma informação
+    * DELETE: Excluir uma informação
+ */
+
+ /**
+    * Tipos de Parâmetros:
+    * 
+    * Query Params: Parâmetros nomeados enviados na rota após '?' (Filtros, paginação). Exemplo /users?name=Luiz&idade=20
+    * Route Params: Parâmetros utilizados para identificar recursos. Exemplo users/:id
+    * Request Body: Corpo da requisição, utilizado para criar ou alterar recursos. 
+*/
+
+/**
+    * Banco de Dados:
+    *
+    * Driver: SELECT * FROM Users
+    * Query Builder: table('users')->select('*').where() 
+ */
+
+
